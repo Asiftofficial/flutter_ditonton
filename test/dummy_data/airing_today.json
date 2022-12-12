@@ -1,0 +1,25 @@
+{
+  "page": 1,
+  "results": [
+    {
+      "backdrop_path": "/path.jpg",
+      "first_air_date": "2020-05-05",
+      "genre_ids": [
+      1,
+      2,
+      3
+      ],
+      "id": 2,
+      "name": "Title",
+      "original_language": "en",
+      "original_name": "Original Title",
+      "overview": "Overview",
+      "popularity": 1.0,
+      "poster_path": "/path.jpg",
+      "vote_average": 7.3,
+      "vote_count": 3
+    }
+  ],
+  "total_pages": 16,
+  "total_results": 318
+}

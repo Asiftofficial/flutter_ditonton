@@ -1,0 +1,28 @@
+{
+  "page": 1,
+  "results": [
+    {
+      "backdrop_path": "/zMH3dAHXrP2ne7yLBLwL1hff3jn.jpg",
+      "first_air_date": "2022-08-01",
+      "genre_ids": [
+      10751,
+      35,
+      10767
+      ],
+      "id": 206112,
+      "name": "Mapi",
+      "origin_country": [
+      "ES"
+      ],
+      "original_language": "es",
+      "original_name": "Mapi",
+      "overview": "",
+      "popularity": 1322.172,
+      "poster_path": "/pghBfllgjFrJvRAXcOSSYg0mYDJ.jpg",
+      "vote_average": 7.3,
+      "vote_count": 3
+    }
+  ],
+  "total_pages": 16,
+  "total_results": 318
+}

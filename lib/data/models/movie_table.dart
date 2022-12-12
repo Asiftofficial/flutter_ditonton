@@ -7,12 +7,14 @@ class MovieTable extends Equatable {
   final String? title;
   final String? posterPath;
   final String? overview;
+  final String? type;
 
   MovieTable({
     required this.id,
     required this.title,
     required this.posterPath,
     required this.overview,
+    required this.type,
   });
 
   factory MovieTable.fromEntity(MovieDetail movie) => MovieTable(
@@ -20,6 +22,7 @@ class MovieTable extends Equatable {
         title: movie.title,
         posterPath: movie.posterPath,
         overview: movie.overview,
+        type: 'movie',
       );
 
   factory MovieTable.fromMap(Map<String, dynamic> map) => MovieTable(
@@ -27,6 +30,7 @@ class MovieTable extends Equatable {
         title: map['title'],
         posterPath: map['posterPath'],
         overview: map['overview'],
+        type: 'movie',
       );
 
   Map<String, dynamic> toJson() => {
@@ -34,6 +38,7 @@ class MovieTable extends Equatable {
         'title': title,
         'posterPath': posterPath,
         'overview': overview,
+        'type': type,
       };
 
   Movie toEntity() => Movie.watchlist(

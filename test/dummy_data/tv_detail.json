@@ -1,0 +1,169 @@
+{
+  "adult": false,
+  "backdrop_path": "/yVS0mwGHf1NxiP3thnYNG0QK3sz.jpg",
+  "created_by": [
+  {
+  "id": 7624,
+  "credit_id": "60291018a6725400426a5e99",
+  "name": "Stan Lee",
+  "gender": 2,
+  "profile_path": "/kKeyWoFtTqOPsbmwylNHmuB3En9.jpg"
+  },
+  {
+  "id": 7625,
+  "credit_id": "6029102f92e55b003f5d5b36",
+  "name": "Steve Ditko",
+  "gender": 2,
+  "profile_path": "/x270c7XwNTnt8qhoZhW4xUzAqEX.jpg"
+  }
+  ],
+  "episode_run_time": [
+  22
+  ],
+  "first_air_date": "1994-11-19",
+  "genres": [
+  {
+  "id": 16,
+  "name": "Animation"
+  },
+  {
+  "id": 10759,
+  "name": "Action & Adventure"
+  }
+  ],
+  "homepage": "",
+  "id": 888,
+  "in_production": false,
+  "languages": [
+  "en"
+  ],
+  "last_air_date": "1998-01-31",
+  "last_episode_to_air": {
+  "air_date": "1998-01-31",
+  "episode_number": 13,
+  "id": 48849,
+  "name": "Spider Wars (2): Farewell, Spider-Man",
+  "overview": "Spider-Man is sent through several dimensions trying to fix time and seal away Spider-Carnage. Peter meets his would be girlfriend Gwen Stacey and Stan Lee.",
+  "production_code": "",
+  "runtime": 22,
+  "season_number": 5,
+  "show_id": 888,
+  "still_path": "/mSvy3PBKsjxYvik41UI1m6DtKXT.jpg",
+  "vote_average": 8.5,
+  "vote_count": 2
+  },
+  "name": "Spider-Man",
+  "next_episode_to_air": null,
+  "networks": [
+  {
+  "id": 19,
+  "name": "FOX",
+  "logo_path": "/1DSpHrWyOORkL9N2QHX7Adt31mQ.png",
+  "origin_country": "US"
+  },
+  {
+  "id": 2686,
+  "name": "Fox Kids",
+  "logo_path": "/rUb71E91POVCxpXGJ49pf6m8Ukk.png",
+  "origin_country": "US"
+  }
+  ],
+  "number_of_episodes": 65,
+  "number_of_seasons": 5,
+  "origin_country": [
+  "US"
+  ],
+  "original_language": "en",
+  "original_name": "Spider-Man",
+  "overview": "Bitten by a radioactive spider, Peter Parker develops spider-like superpowers. He uses these to fight crime while trying to balance it with the struggles of his personal life.",
+  "popularity": 60.384,
+  "poster_path": "/wXthtEN5kdWA1bHz03lkuCJS6hA.jpg",
+  "production_companies": [
+  {
+  "id": 108634,
+  "logo_path": "/rZGM78DBr6Zn1tV9NAOhuMdB0Sn.png",
+  "name": "Marvel Films",
+  "origin_country": "US"
+  },
+  {
+  "id": 160251,
+  "logo_path": null,
+  "name": "Marvel Entertainment Group",
+  "origin_country": "US"
+  }
+  ],
+  "production_countries": [
+  {
+  "iso_3166_1": "US",
+  "name": "United States of America"
+  }
+  ],
+  "seasons": [
+  {
+  "air_date": "2004-06-19",
+  "episode_count": 2,
+  "id": 2571,
+  "name": "Specials",
+  "overview": "",
+  "poster_path": null,
+  "season_number": 0
+  },
+  {
+  "air_date": "1994-11-19",
+  "episode_count": 13,
+  "id": 2572,
+  "name": "Season 1",
+  "overview": "",
+  "poster_path": "/5311wSCVVXZgoCCbjszm4tt6vDz.jpg",
+  "season_number": 1
+  },
+  {
+  "air_date": "1995-09-09",
+  "episode_count": 14,
+  "id": 2570,
+  "name": "Season 2",
+  "overview": "",
+  "poster_path": "/kLH7jvpZX5om5kRf0PnkknqdRnn.jpg",
+  "season_number": 2
+  },
+  {
+  "air_date": "1996-04-27",
+  "episode_count": 14,
+  "id": 2568,
+  "name": "Season 3",
+  "overview": "",
+  "poster_path": "/1vqVLjM1m7jJ3xH7WcjNLgt50mP.jpg",
+  "season_number": 3
+  },
+  {
+  "air_date": "1997-02-01",
+  "episode_count": 11,
+  "id": 2569,
+  "name": "Season 4",
+  "overview": "",
+  "poster_path": "/7WFnsoEj89jS2m67r04hvSy0PrY.jpg",
+  "season_number": 4
+  },
+  {
+  "air_date": "1997-09-12",
+  "episode_count": 13,
+  "id": 2573,
+  "name": "Season 5",
+  "overview": "",
+  "poster_path": "/8GY0gSOOoSrTB3tRyrpJ2Yi4Cny.jpg",
+  "season_number": 5
+  }
+  ],
+  "spoken_languages": [
+  {
+  "english_name": "English",
+  "iso_639_1": "en",
+  "name": "English"
+  }
+  ],
+  "status": "Canceled",
+  "tagline": "",
+  "type": "Scripted",
+  "vote_average": 8.288,
+  "vote_count": 834
+  }

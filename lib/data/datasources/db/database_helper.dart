@@ -1,6 +1,7 @@
 import 'dart:async';
 
 import 'package:ditonton/data/models/movie_table.dart';
+import 'package:ditonton/data/models/tv_table.dart';
 import 'package:sqflite/sqflite.dart';
 
 class DatabaseHelper {
@@ -36,7 +37,8 @@ class DatabaseHelper {
         id INTEGER PRIMARY KEY,
         title TEXT,
         overview TEXT,
-        posterPath TEXT
+        posterPath TEXT,
+        type TEXT
       );
     ''');
   }
@@ -46,12 +48,26 @@ class DatabaseHelper {
     return await db!.insert(_tblWatchlist, movie.toJson());
   }
 
+  Future<int> insertTvWatchlist(TvTable tv) async {
+    final db = await database;
+    return await db!.insert(_tblWatchlist, tv.toJson());
+  }
+
   Future<int> removeWatchlist(MovieTable movie) async {
     final db = await database;
     return await db!.delete(
       _tblWatchlist,
       where: 'id = ?',
       whereArgs: [movie.id],
+    );
+  }
+
+  Future<int> removeTvWatchlist(TvTable tv) async {
+    final db = await database;
+    return await db!.delete(
+      _tblWatchlist,
+      where: 'id = ?',
+      whereArgs: [tv.id],
     );
   }
 
@@ -70,9 +86,33 @@ class DatabaseHelper {
     }
   }
 
+  Future<Map<String, dynamic>?> getTvById(int id) async {
+    final db = await database;
+    final results = await db!.query(
+      _tblWatchlist,
+      where: 'id = ?',
+      whereArgs: [id],
+    );
+
+    if (results.isNotEmpty) {
+      return results.first;
+    } else {
+      return null;
+    }
+  }
+
   Future<List<Map<String, dynamic>>> getWatchlistMovies() async {
     final db = await database;
-    final List<Map<String, dynamic>> results = await db!.query(_tblWatchlist);
+    final List<Map<String, dynamic>> results =
+        await db!.query(_tblWatchlist, where: 'type = ?', whereArgs: ['movie']);
+
+    return results;
+  }
+
+  Future<List<Map<String, dynamic>>> getWatchlistTv() async {
+    final db = await database;
+    final List<Map<String, dynamic>> results =
+        await db!.query(_tblWatchlist, where: 'type = ?', whereArgs: ['tv']);
 
     return results;
   }
